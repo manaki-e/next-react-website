@@ -1,10 +1,10 @@
-import Logo from "./logo";
+import Logo from "components/logo";
 import Nav from "components/nav";
 
 export default function Home() {
   return (
     <header>
-      <Logo />
+      <Logo boxOn />
       <Nav />
     </header>
   );
